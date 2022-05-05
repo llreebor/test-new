@@ -87,7 +87,6 @@ $breakpoint768: 767.98px;
                     line-height: 26px;
                 }
                 @media (max-width: $breakpoint768){
-                    line-height: 20px;
                     text-align: center;
                 }
             }
@@ -139,9 +138,6 @@ $breakpoint768: 767.98px;
             @media (max-width: $breakpoint992){
                 font-size: 18px;
                 line-height: 26px;
-            }
-            @media (max-width: $breakpoint768){
-                line-height: 20px;
             }
             span {
                 font-weight: bold;
@@ -292,7 +288,6 @@ $breakpoint768: 767.98px;
             margin-top: 0;
         }
         @media (max-width: $breakpoint768){
-            line-height: 20px;
             max-width: 100%;
         }
     }
