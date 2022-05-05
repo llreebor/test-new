@@ -424,6 +424,10 @@ $breakpoint768: 767.98px;
                 padding-top: 68px;
                 padding-right: 20px;
             }
+
+            @media (min-width: 2000px){
+                padding-right: 40%;
+            }
         }
 		// .mission__item-subtext
 		&__item-subtext {

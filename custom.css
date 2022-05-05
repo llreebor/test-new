@@ -569,6 +569,12 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .main__hero .mission__item-title {
+    padding-right: 40%;
+  }
+}
+
 .main__hero .mission__item-subtext {
   font-style: normal;
   font-weight: 400;
