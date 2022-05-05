@@ -24,7 +24,7 @@
   max-width: 2000px;
   width: 100%;
   height: auto;
-  z-index: 1;
+  z-index: 0;
 }
 
 @media (max-width: 767.98px) {
@@ -128,6 +128,12 @@
   .main__hero .innovating {
     padding-top: 0;
     padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .main__hero .innovating {
+    padding-top: 350px;
   }
 }
 
