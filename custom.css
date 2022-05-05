@@ -111,7 +111,6 @@
 
 @media (max-width: 767.98px) {
   .main__hero .hero__new .hero__text {
-    font-size: 16px;
     line-height: 20px;
     text-align: center;
   }
@@ -173,14 +172,13 @@
 
 @media (max-width: 991.98px) {
   .main__hero .innovating__text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
 
 @media (max-width: 767.98px) {
   .main__hero .innovating__text {
-    font-size: 16px;
     line-height: 20px;
   }
 }
@@ -381,7 +379,6 @@
 
 @media (max-width: 767.98px) {
   .main__hero .guitar__text {
-    font-size: 16px;
     line-height: 20px;
     max-width: 100%;
   }
@@ -595,7 +592,6 @@
 
 @media (max-width: 767.98px) {
   .main__hero .mission__item-subtext {
-    font-size: 16px;
     line-height: 20px;
     margin-top: 30px;
     padding-bottom: 80px;
