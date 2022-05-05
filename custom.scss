@@ -19,12 +19,16 @@ $breakpoint768: 767.98px;
             right: 0;
             top: 50px;
             object-fit: cover;
-            max-width: 100%;
+            max-width: 2000px;
             width: 100%;
             height: auto;
             z-index: 1;
             @media (max-width: $breakpoint768){
                 height: 250px;
+            }
+            @media (min-width: 2500px){
+                left: unset;
+                max-width: 1800px;
             }
         }
 

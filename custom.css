@@ -21,7 +21,7 @@
   top: 50px;
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 100%;
+  max-width: 2000px;
   width: 100%;
   height: auto;
   z-index: 1;
@@ -30,6 +30,13 @@
 @media (max-width: 767.98px) {
   .main__hero .hero__new .hero__img {
     height: 250px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .main__hero .hero__new .hero__img {
+    left: unset;
+    max-width: 1800px;
   }
 }
 
