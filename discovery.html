@@ -1,0 +1,936 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
+
+    <title>Playlister | Discovery</title>
+
+
+
+    <style type="text/css">
+        .hidden {
+
+            display: none;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <main class="profiles">
+
+
+
+        <!--
+
+  		<div class="header px-4">
+
+  			<div class="section-content p-0">
+
+		 	    <nav class="navbar navbar-expand-md py-0" aria-label="">
+
+	    			<div class="container-fluid d-flex px-0">
+
+	    				<a href="/" class="navbar-brand brand">Playlister.club</a>
+
+    		  			
+
+		      			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+
+        					<span class="navbar-toggler-icon d-flex align-items-center">
+
+        						<img src="assets/img/hamburguer.svg" class="icon-hamburguer img-svg">
+
+        					</span>
+
+      					</button>
+
+
+
+		    	  		<div class="collapse navbar-collapse" id="navbars">
+
+			        		<ul class="navbar-nav nav-pills ms-auto m-0" id="main-navbar">
+
+    						</ul>
+
+		      			</div>
+
+
+
+    				</div>
+
+  				</nav>
+
+  			</div>
+
+  		</div>
+
+  		-->
+
+
+
+        <div class="header px-3">
+
+            <div class="section-content p-0">
+
+                <nav class="navbar navbar-expand-md navbar-dark py-0" aria-label="">
+
+                    <div class="container-fluid p-sm-0">
+
+                        <a href="/" class="navbar-brand brand">Playlister.club</a>
+
+
+
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbars" aria-controls="navbarsExample04" aria-expanded="false"
+                            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+
+                        <div class="collapse navbar-collapse" id="navbars">
+
+                            <ul class="navbar-nav nav-pills ms-auto m-0" id="main-navbar">
+
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div class="hero pt-5">
+
+            <div class="container px-4 pt-5 pb-0">
+
+                <div class="row align-items-center pt-3 pb-0">
+
+                    <div class="col-12 pt-5 pb-5">
+
+                        <h1 class="mb-3 text-center">Get matched with a feed
+                            <br class="d-none d-md-block"> of new songs you’ll love
+
+                        </h1>
+
+                        <p class="lead text-center">The art of music curation lies in discovering new songs,
+                            <br class="d-none d-md-block">
+                            organically. That's what our one-of-a-kind Discovery feed offers
+                            <br class="d-none d-md-block">
+                            - endless possibilities for discovering your next favorite song
+                            <br class="d-none d-md-block">
+                            based on your past interactions and tastes.
+                        </p>
+
+                    </div>
+
+                    <div class="col-12 text-center">
+
+                        <img src="assets/img/discovery/hero.png" class="d-block mx-auto img-fluid col-md-10 col-lg-8"
+                            alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="bk-3 pt-5">
+
+            <div class="container">
+
+                <h2 class="text-center my-5">Discovery Feed</h2>
+
+                <div class="row py-5">
+
+                    <div class="col-12">
+
+                        <h2 class="text-center">Skip the submission inbox and <br class="d-none d-md-block"> find
+                            amazing new music</h2>
+
+
+
+
+
+                        <p class="section-text mt-5 mb-5 text-center col-lg-8 offset-lg-2">
+
+                            When you enter Playlister.Club, you’ll be met with a personalized feed of new releases that
+                            you can freely explore.
+                            Different carousels “Songs with Good Playlistability,” “Trending Artists” and even “Tracks
+                            from Labels” highlight
+                            important sections you may be interested in diving further into. Learn how to best explore
+                            this page and find your
+                            favorite new release!
+
+                        </p>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class=" bk-3 cta pb-5">
+
+            <a href="https://www.playlister.club/#signup" target="_blank" class="btn-cta d-block mx-auto my-0">
+
+                Get started
+
+            </a>
+
+        </div>
+
+
+
+        <div class="py-5">
+
+            <div class="container pt-5">
+
+                <h2 class="text-start">
+
+                    How to use our Dashboard
+
+                </h2>
+
+                <div class="row">
+
+                    <div class="col-12 px-0 step-box">
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 step-number step-1 pt-2 pt-sm-5 d-flex align-items-center">
+
+                                <div class="img-step-wrap mx-auto">
+
+                                    <img src="assets/img/icon-step-v2-01.svg" class="drop-shadow">
+
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="col-9 col-sm-11 step-body pt-2 pt-sm-5 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+
+
+                                <div class="step px-1 px-sm-4">
+
+                                    <img src="assets/img/discovery/step-1.jpg"
+                                        class="drop-shadow border-radius my-3 mb-5">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 step-number step-blank pt-0 d-flex align-items-center">
+
+
+
+                            </div>
+
+                            <div class="col-9 col-sm-11 step-body pt-0 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+                                <h3 class="col-lg-6 px-1 px-sm-4">Open a free account</h3>
+
+                                <p class="step-text my-3 col-lg-6 px-1 px-sm-4">
+
+                                    As a playlister, and enter your dashboard.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 px-0 step-box">
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 step-number pt-2 pt-sm-5 d-flex align-items-center">
+
+                                <div class="img-step-wrap mx-auto">
+
+                                    <img src="assets/img/icon-step-v2-02.svg" class="drop-shadow">
+
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="col-9 col-sm-11 step-body pt-2 pt-sm-5 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+
+
+                                <div class="step px-1 px-sm-4">
+
+                                    <img src="assets/img/discovery/step-2.jpg"
+                                        class="drop-shadow border-radius my-3 mb-5">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 step-number step-blank pt-0 d-flex align-items-center">
+
+
+
+                            </div>
+
+                            <div class="col-9 col-sm-11 step-body pt-0 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+                                <h3 class="col-lg-6 px-1 px-sm-4">Scroll through the “Discover” page</h3>
+
+                                <p class="step-text my-3 col-lg-6 px-1 px-sm-4">
+
+                                    Click on album covers to listen, and use the genre selector at certain carousels to
+                                    filter.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 px-0 step-box">
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 step-number step-3 pt-2 pt-sm-5 d-flex align-items-center">
+
+                                <div class="img-step-wrap mx-auto">
+
+                                    <img src="assets/img/icon-step-v2-03.svg" class="drop-shadow">
+
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="col-9 col-sm-11 step-body pt-2 pt-sm-5 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+
+
+                                <div class="step px-1 px-sm-4">
+
+
+
+
+
+                                    <img src="assets/img/discovery/step-3.jpg"
+                                        class="drop-shadow border-radius my-3 mb-5">
+
+
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row mx-0">
+
+                            <div class="col-3 col-sm-1 pt-0 d-flex align-items-center">
+
+
+
+                            </div>
+
+                            <div class="col-9 col-sm-11 step-body pt-0 step-no-border ps-0 px-sm-3 px-md-1 px-lg-3">
+
+                                <h3 class="col-lg-6 px-1 px-sm-4">Once you find a song you like</h3>
+
+                                <p class="step-text my-3 col-lg-6 px-1 px-sm-4">
+
+                                    Leave a review with the ‘thumbs up” button, or use our <a href="scheduler.html" class="body-link text-decoration-underline">scheduler</a> to
+                                    place it into your best-fitting playlist. Link to
+                                    the full song, or even send it via <a href="songchat.html" class="body-link text-decoration-underline">SongChat</a>.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="bk-3 py-5 grad-bg">
+
+            <div class="container pt-5">
+
+                <h2 class="text-center">
+
+                    Our Discovery Feed allows you to:
+
+                </h2>
+
+                <div class="row py-5">
+
+                    <div class="col-12 col-md-6 mb-5 d-flex">
+
+
+
+                        <div class="col-2">
+
+                            <img src="assets/img/discovery/icon-explore.svg" class="img-fluid">
+
+                        </div>
+
+                        <div class="col-10">
+
+                            <p class="allows ps-3 pe-4">
+
+                                Explore an algorithmically-curated feed of new releases
+                                by artists to connect with.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-5 d-flex">
+
+
+
+                        <div class="col-2">
+
+                            <img src="assets/img/discovery/icon-interact.svg" class="img-fluid">
+
+                        </div>
+
+                        <div class="col-10">
+
+                            <p class="allows ps-3 pe-4">
+
+                                Interact with songs directly from the feed to support artists and build amazing playlists.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-5 d-flex">
+
+
+
+                        <div class="col-2">
+
+                            <img src="assets/img/discovery/icon-filter.svg" class="img-fluid">
+
+                        </div>
+
+                        <div class="col-10">
+
+                            <p class="allows ps-3 pe-4">
+
+                                Filter through new releases by genre; see which new artists are trending.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-5 d-flex">
+
+
+
+                        <div class="col-2">
+
+                            <img src="assets/img/discovery/icon-savetime.svg" class="img-fluid">
+
+                        </div>
+
+                        <div class="col-10">
+
+                            <p class="allows ps-3 pe-4">
+
+                                Save time and energy; stop sifting through an overcrowded inbox of submissions.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="cta pb-5">
+
+                <a href="https://www.playlister.club/#signup" target="_blank" class="btn-cta d-block mx-auto my-0">
+
+                    Get started
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+            <div class="hero2 grad-bg">
+            
+            
+            
+                <div class="container col-xxl-8 px-4 py-5">
+            
+                    <div class="row align-items-center g-5 py-5">
+            
+                        <div class="col-12 col-lg-6 col-xl-5 mt-0">
+            
+                            <h2 class="mb-3">More than <br> the Discovery Feed:</h2>
+            
+                            <p class="lead text-hero2"><b>Playlister.Club</b> is the most advanced music discovery platform that is
+                                home to the largest community of independent playlisters looking for new music. We offer amazing
+                                tools to curate and manage playlists, alongside accurate song recommendations to help you find your
+                                next favorite up and coming artist. Create your free account now and start accessing all of these
+                                member benefits and more!</p>
+            
+                        </div>
+            
+                        <div class="col-12 col-lg-6 col-xl-7 text-center">
+            
+                            <img src="assets/img/scheduler/img-hero-02.png" class="d-block mx-auto img-fluid img-hero2"
+                                alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            
+                        </div>
+            
+            
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+
+
+        <section class="py-5">
+
+            <div class="container bk-3 py-5">
+
+
+
+                <h2 class="text-center">Frequently Asked Questions</h2>
+
+
+
+
+
+                <input type="text" id="accordion_search_bar"
+                    class="input-search mt-4 col-10 col-sm-8 col-md-6 mx-auto d-block" name=""
+                    placeholder="Search your questions">
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <section class="pb-5">
+
+            <div class="container">
+
+                <div class="accordion" id="accordionFAQ">
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <div class="cta pb-5">
+
+            <a href="https://www.playlister.club/#signup" target="_blank" class="btn-cta d-block mx-auto my-0">
+
+                Get started
+
+            </a>
+
+        </div>
+
+
+
+        <!-- <div class="selector py-5">
+
+            <div class="container bk-3 py-5">
+
+                <div class="row">
+
+                    <h2 class="text-center">Check out some more features</h2>
+
+                    <div class="selector mb-3 mt-4 col-10 col-sm-8 col-md-6 mx-auto d-block">
+
+                        <select id="selector1" class="selector-link">
+
+                            <option selected disabled>Playlisters Features</option>
+
+
+
+                        </select>
+
+                    </div>
+
+                    <div class="selector mb-3 mt-4 col-10 col-sm-8 col-md-6 mx-auto d-block">
+
+                        <select id="selector2" class="selector-link">
+
+                            <option selected disabled>Artist & Labels Features</option>
+
+
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div> -->
+
+
+
+
+
+        <footer class="py-3">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-7">
+
+                        <ul class="menu-ft d-block d-sm-flex text-start">
+
+                            <li>
+
+                                <a href="https://www.playlister.club/faqs.html" target="_blank"
+                                    class="nav-link">FAQs</a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://www.playlister.club/terms-of-service.html" target="_blank"
+                                    class="nav-link">Terms of Use</a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://www.playlister.club/privacy-policy.html" target="_blank"
+                                    class="nav-link">Privacy Policy</a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://blog.playlister.club/" target="_blank" class="nav-link">Blog</a>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-1 d-none d-lg-flex"></div>
+
+                    <div class="col-12 col-lg-4">
+
+                        <ul class="menu-ft menu-social">
+
+                            <li>
+
+                                <a href="https://open.spotify.com/user/fystyaogi6kcu7t8ul3bw36jr" class="nav-link"
+                                    target="_blank"><img src="assets/img/spotify.svg" class="icon-socials img-svg"></a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://www.instagram.com/playlisterclub/" class="nav-link"
+                                    target="_blank"><img src="assets/img/instagram.svg"
+                                        class="icon-socials img-svg"></a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://twitter.com/PlaylisterClub" class="nav-link" target="_blank"><img
+                                        src="assets/img/twitter.svg" class="icon-socials img-svg"></a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="https://www.facebook.com/pg/Playlister-Club-421335835328511" class="nav-link"
+                                    target="_blank"><img src="assets/img/facebook.svg" class="icon-socials img-svg"></a>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-12 text-start pt-2">
+
+                        <p class="copy">
+
+                            © 2022 Playlister.club. All rights reserved.
+
+                        </p>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        getFAQ("discovery", "#accordionFAQ");
+
+
+
+        function getFAQ(context, parent) {
+
+            $.getJSON("https://api.playlister.club/data/pc/playlists/getfaq?context=" + context, function (data) {
+
+                var items = [];
+
+                console.log(data);
+
+
+
+                data.map(function (QA, I) {
+
+
+
+                    var item = "<div class='accordion-item mb-4' id='accordion-item-" + context + "-" + I + "'>";
+
+
+
+                    item += "<h2 class='accordion-header' id='panelsStayOpen-heading" + I + "'>";
+
+
+
+                    item += "<button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapse" + I + "' aria-expanded='true' aria-controls='panelsStayOpen-collapse" + I + "'>" + QA.Question + "</button></h2>";
+
+
+
+                    item += "<div id='panelsStayOpen-collapse" + I + "' class='accordion-collapse collapse' aria-labelledby='panelsStayOpen-heading" + I + "'> <div class='accordion-body'>" + QA.Answer + "</div></div>";
+
+
+
+                    item += "</div>";
+
+
+
+                    items.push(item);
+
+                    console.log(items, item);
+
+                });
+
+
+
+                $("<div/>", {
+
+                    "class": "faq",
+
+                    html: items.join("")
+
+                }).appendTo(parent);
+
+
+
+                $('.faqitem').click(function () {
+
+                    $('.faqitem').find('.answer').removeClass('active');
+
+                    $(this).find('.answer').toggleClass('active');
+
+                })
+
+
+
+            });
+
+        }
+
+
+
+    </script>
+
+
+
+    <script>
+
+        (function () {
+
+            var searchTerm, panelContainerId;
+
+            // Create a new contains that is case insensitive
+
+            $.expr[':'].containsCaseInsensitive = function (n, i, m) {
+
+                return jQuery(n).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+
+            };
+
+
+
+
+
+            $('#accordion_search_bar').on('change keyup paste', function () {
+
+
+
+                searchTerm = $(this).val();
+
+
+
+                $('.accordion-item').each(function () {
+
+                    panelContainerId = '#' + $(this).attr('id');
+
+
+
+                    $(panelContainerId + ':not(:containsCaseInsensitive(' + searchTerm + '))').hide();
+
+                    $(panelContainerId + ':containsCaseInsensitive(' + searchTerm + ')').show();
+
+                });
+
+            });
+
+        }());
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
