@@ -550,6 +550,7 @@
   line-height: 70px;
   letter-spacing: -0.4409px;
   color: #000000;
+  padding-right: 50px;
 }
 
 @media (max-width: 1400px) {
@@ -564,6 +565,7 @@
     font-size: 34px;
     line-height: 41px;
     padding-top: 68px;
+    padding-right: 20px;
   }
 }
 
@@ -574,6 +576,7 @@
   line-height: 34px;
   color: #323232;
   margin-top: 70px;
+  padding-right: 50px;
 }
 
 @media (max-width: 991.98px) {
@@ -590,6 +593,13 @@
     line-height: 20px;
     margin-top: 30px;
     padding-bottom: 80px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .main__hero .mission__item-subtext {
+    padding-right: 40%;
   }
 }
 
